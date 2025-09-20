@@ -48,15 +48,19 @@ int main (int argc, char* args[])
         if (evt.type == SDL_KEYDOWN) {
             switch (evt.key.keysym.sym) {
                 case SDLK_UP:
+                    if(r.y - 5 >= 0)
                     r.y -= 5;
                     break;
                 case SDLK_DOWN:
+                    if(r.y + 15 <= 100)
                     r.y += 5;
                     break;
                 case SDLK_LEFT:
+                    if(r.x - 5 >= 0)
                     r.x -= 5;
                     break;
                 case SDLK_RIGHT:
+                    if(r.x + 15 <= 200)
                     r.x += 5;
                     break;
             }
