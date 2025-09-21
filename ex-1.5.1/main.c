@@ -4,7 +4,7 @@ int main (int argc, char* args[])
 {
     /* INICIALIZACAO */
     SDL_Init(SDL_INIT_EVERYTHING);
-    SDL_Window* win = SDL_CreateWindow("Movendo um Retângulo",
+    SDL_Window* win = SDL_CreateWindow("1.5.1",
                          SDL_WINDOWPOS_UNDEFINED,
                          SDL_WINDOWPOS_UNDEFINED,
                          800, 600, SDL_WINDOW_SHOWN
